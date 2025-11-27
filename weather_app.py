@@ -1,7 +1,5 @@
 import requests
 
-API_KEY = "9e4d8fbe0c3993f39efca8af1cdc9505"   # replace with your real key
-
 def get_location():
     url = "https://ipinfo.io/json"
     response = requests.get(url).json()

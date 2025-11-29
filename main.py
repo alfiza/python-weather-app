@@ -1,8 +1,10 @@
+#!/usr/bin/env python3
+
 from weather_app import get_location, get_weather
 from config import API_KEY  # Keep your real key in config.py, ignored in git
 
 def main():
-    print("Fetching your location...")
+    print("Fetching your location...!!!")
     location = get_location()
     print(f"📍 Location: {location['city']}, {location['region']}, {location['country']}")
     print("Fetching weather details...\n")

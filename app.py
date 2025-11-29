@@ -12,7 +12,7 @@ def home():
         return f"Unable to fetch weather details. Error: {weather.get('message', 'Unknown error')}"
     
     return f"""
-    <h2>!!!***---Weather Details***!!!</h2>
+    <h2>!!!***---Weather Details---***!!!</h2>
     <p>Location: {location['city']}, {location['region']}, {location['country']}</p>
     <p>Temperature: {weather['main']['temp']}°C</p>
     <p>Feels Like: {weather['main']['feels_like']}°C</p>
